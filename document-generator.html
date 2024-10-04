@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Trialyx Health Document Generator</title>
+    <meta name="description" content="Our advanced AI-powered platform revolutionizes clinical trial documentation, streamlining the creation process and enhancing collaboration among research teams.">
+    <meta name="keywords" content="Trialyx Health, Document Generator, AI, Clinical Trials">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Tailwind CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="font-sans antialiased">
+    <!-- Navbar -->
+    <nav class="bg-white shadow-md fixed w-full z-50">
+        <div class="container mx-auto px-6 py-3 flex justify-between items-center">
+            <div class="flex items-center">
+                <a href="index.html" class="flex items-center">
+                    <img src="files/trialyx-health-logo-zip-file/png/logo-no-background-no-text.png" alt="Trialyx Logo" class="h-8 w-auto mr-3">
+                    <span class="text-xl font-semibold text-gray-800">Trialyx Health</span>
+                </a>
+            </div>
+            <div class="hidden md:flex items-center space-x-6">
+                <a href="index.html" class="text-gray-600 hover:text-blue-600">Home</a>
+                <a href="about.html" class="text-gray-600 hover:text-blue-600">About</a>
+                <a href="contact.html" class="text-gray-600 hover:text-blue-600">Contact</a>
+            </div>
+            <div class="md:hidden">
+                <button id="mobile-menu-button" class="text-gray-600 focus:outline-none">
+                    <svg class="h-6 w-6" fill="none" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden">
+            <a href="index.html" class="block px-4 py-2 text-gray-600 hover:bg-gray-200">Home</a>
+            <a href="about.html" class="block px-4 py-2 text-gray-600 hover:bg-gray-200">About</a>
+            <a href="contact.html" class="block px-4 py-2 text-gray-600 hover:bg-gray-200">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-6 py-24 mt-16">
+        <h1 class="text-4xl font-bold mb-8 text-blue-600">Trialyx Health Document Generator</h1>
+        <p class="text-xl mb-8 text-gray-700">Our advanced AI-powered platform revolutionizes clinical trial documentation, streamlining the creation process and enhancing collaboration among research teams.</p>
+
+        <h2 class="text-2xl font-semibold mb-4 text-blue-600">Key Features:</h2>
+        <ul class="list-disc list-inside mb-8 text-gray-700">
+            <li>Automated document generation using advanced AI models</li>
+            <li>AI-powered content refinement for accuracy and completeness</li>
+            <li>Flexible document customization to meet specific trial needs</li>
+            <li>Collaborative workflow support for seamless teamwork</li>
+            <li>Real-time progress tracking and reporting</li>
+        </ul>
+
+        <h2 class="text-2xl font-semibold mb-4 text-blue-600">Benefits:</h2>
+        <ul class="list-disc list-inside mb-8 text-gray-700">
+            <li>Significantly reduce document creation time</li>
+            <li>Improve document quality and consistency</li>
+            <li>Enhance compliance with regulatory requirements</li>
+            <li>Streamline collaboration among research teams</li>
+            <li>Accelerate the overall clinical trial process</li>
+        </ul>
+
+        <a href="contact.html" class="bg-blue-600 text-white font-bold py-3 px-6 rounded-full hover:bg-blue-700 transition duration-300">Request a Demo</a>
+    </main>
+
+   <!-- Footer -->
+   <footer class="bg-gray-800 text-white py-12">
+    <div class="container mx-auto px-6">
+        <div class="grid md:grid-cols-3 gap-8">
+            <div>
+                <h4 class="text-lg font-semibold mb-4">Resources</h4>
+                <ul class="space-y-2">
+                    <li><a href="#" class="hover:underline">Documentation</a></li>
+                    <li><a href="#" class="hover:underline">API Reference</a></li>
+                    <li><a href="#" class="hover:underline">Tutorials</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-lg font-semibold mb-4">Company</h4>
+                <ul class="space-y-2">
+                    <li><a href="about.html" class="hover:underline">About Us</a></li>
+                    <li><a href="#" class="hover:underline">Careers</a></li>
+                    <li><a href="contact.html" class="hover:underline">Contact Us</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-lg font-semibold mb-4">Legal</h4>
+                <ul class="space-y-2">
+                    <li><a href="#" class="hover:underline">Privacy Policy</a></li>
+                    <li><a href="#" class="hover:underline">Terms of Service</a></li>
+                    <li><a href="#" class="hover:underline">Cookie Policy</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="mt-8 pt-8 border-t border-gray-700 text-center">
+            <p>&copy; 2024 Trialyx Health. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+<!-- Scripts -->
+<script>
+    // Mobile menu toggle
+    const mobileMenuButton = document.getElementById('mobile-menu-button');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    mobileMenuButton.addEventListener('click', () => {
+        mobileMenu.classList.toggle('hidden');
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+/* styles.css */
+
+/* Custom Styles */
+
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Hide mobile menu by default */
+#mobile-menu {
+    display: none;
+}
+
+/* Show mobile menu when active */
+#mobile-menu.active {
+    display: block;
+}
+
+/* Navbar shadow on scroll */
+nav {
+    transition: box-shadow 0.3s;
+}
+
+nav.scrolled {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
